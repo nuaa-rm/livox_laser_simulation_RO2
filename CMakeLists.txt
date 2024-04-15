@@ -75,6 +75,7 @@ set(CSV_FILES
     scan_mode/horizon.csv
     scan_mode/HAP.csv
     scan_mode/avia.csv
+    scan_mode/mid360_invert.csv
 )
 foreach(CSV_FILE ${CSV_FILES})
     configure_file(${CSV_FILE} ${CMAKE_CURRENT_BINARY_DIR}/${CSV_FILE} COPYONLY)
